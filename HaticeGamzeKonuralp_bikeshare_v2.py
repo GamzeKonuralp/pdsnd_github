@@ -119,7 +119,7 @@ def station_stats(df):
 
     print("The most freq used end station :", most_freq_end_station)
 
-    most_freq_start_end_station = df.groupby(['Start Station', 'End Station']).size().reset_index(name='cnt').nlargest(columns=['cnt'],n=1)#.sort_values('cnt', ascending=False)
+    most_freq_start_end_station = df.groupby(['Start Station', 'End Station']).size().reset_index(name='cnt').nlargest(columns=['cnt'],n=1)
    
     print("The most commonly used start station and end station : {}, {}"\
            .format(most_freq_start_end_station['Start Station'], most_freq_start_end_station['End Station']))
