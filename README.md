@@ -1,5 +1,4 @@
-### Date created
-13.01.2021
+### 13.01.2021
 
 
 ### Bikeshare
