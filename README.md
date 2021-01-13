@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+13.01.2021
 
-### Project Title
-Replace the Project Title
 
-### Description
-Describe what your project is about and what it does
+### Bikeshare
+
+
+This project uses Pandas and Numpy libraries to get insights about how bikeshare is used by its customers.
+
 
 ### Files used
-Include the files used
+chicago.csv, new_york_city.csv, washington.csv data files.
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This repository is created for [Udacity course](https://classroom.udacity.com/nanodegrees/nd104-ent/dashboard/overview). 
 
